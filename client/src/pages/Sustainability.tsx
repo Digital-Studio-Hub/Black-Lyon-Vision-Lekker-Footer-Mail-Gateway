@@ -64,7 +64,7 @@ export default function Sustainability() {
     <Layout>
       <SEO
         title="Sustainability & Impact"
-        description="Discover how Black Lyon Power prioritizes environmental responsibility, economic impact, and energy security in all our renewable energy projects."
+        description="Discover how Black Lyon Power Holdings prioritizes environmental responsibility, economic impact, and energy security in all our renewable energy projects."
         keywords="sustainable energy South Africa, renewable energy impact, environmental responsibility, clean energy development"
       />
       {/* Hero Section */}
@@ -78,7 +78,7 @@ export default function Sustainability() {
               Sustainability & Impact
             </h1>
             <p className="mt-6 text-lg lg:text-xl text-muted-foreground leading-relaxed">
-              Environmental responsibility, economic impact, and contribution to energy security are fundamental to everything we do at Black Lyon Power.
+              Environmental responsibility, economic impact, and contribution to energy security are fundamental to everything we do at Black Lyon Power Holdings.
             </p>
           </div>
         </div>
@@ -93,7 +93,7 @@ export default function Sustainability() {
                 Sustainability at Our Core
               </h2>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                At Black Lyon Power, sustainability is not an afterthought—it's embedded in our business model. We develop renewable energy projects that deliver positive environmental, social, and economic outcomes.
+                At Black Lyon Power Holdings, sustainability is not an afterthought—it's embedded in our business model. We develop renewable energy projects that deliver positive environmental, social, and economic outcomes.
               </p>
               <p className="mt-4 text-muted-foreground leading-relaxed">
                 Our approach recognizes that long-term success depends on creating value for all stakeholders: communities, the environment, off-takers, and investors. This holistic perspective guides every decision we make.
@@ -214,7 +214,7 @@ export default function Sustainability() {
             </div>
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="leading-relaxed">
-                South Africa faces significant energy challenges, including supply constraints, aging infrastructure, and the need to reduce carbon emissions. Black Lyon Power is positioned to contribute meaningfully to addressing these challenges through the development of utility-scale renewable energy projects.
+                South Africa faces significant energy challenges, including supply constraints, aging infrastructure, and the need to reduce carbon emissions. Black Lyon Power Holdings is positioned to contribute meaningfully to addressing these challenges through the development of utility-scale renewable energy projects.
               </p>
               <p className="mt-4 leading-relaxed">
                 Our projects align with national policy objectives, including the Integrated Resource Plan (IRP), which calls for significant increases in renewable energy capacity. By developing high-quality solar and wind projects, we support the country's transition to a more sustainable, diversified energy mix.

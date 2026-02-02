@@ -79,7 +79,7 @@ export default function Approach() {
     <Layout>
       <SEO
         title="Our Development Approach"
-        description="Discover Black Lyon Power's systematic approach to developing utility-scale renewable energy projects from identification through to long-term asset management."
+        description="Discover Black Lyon Power Holdings' systematic approach to developing utility-scale renewable energy projects from identification through to long-term asset management."
         keywords="renewable energy development approach, project development lifecycle, energy infrastructure, South Africa renewable projects"
       />
       {/* Hero Section */}

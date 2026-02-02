@@ -1,6 +1,7 @@
 import { Link } from "wouter";
 import lekkerLogo from "@assets/lekkerlogo_1770062686308.png";
 import verifiedBadge from "@assets/Badge_Level_1_1770062694049.png";
+import mainLogo from "@assets/Main_Logo_1770065674512.png";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,16 +12,15 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <div className="flex items-center mb-4">
-              <span className="text-lg font-bold tracking-tight text-foreground">
-                BLACK LYON
-              </span>
-              <span className="text-lg font-light tracking-tight text-primary ml-1">
-                POWER
-              </span>
-            </div>
+            <Link href="/" className="block mb-4">
+              <img 
+                src={mainLogo} 
+                alt="Black Lyon Power Holdings" 
+                className="h-16 w-auto"
+              />
+            </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Developing utility-scale renewable energy projects for municipalities and industrial customers across South Africa.
+              Building the Energy Infrastructure Africa Needs. Developing utility-scale renewable energy projects across South Africa.
             </p>
           </div>
 
@@ -150,7 +150,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} Black Lyon Power. All rights reserved.
+              © {currentYear} Black Lyon Power Holdings. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <Link href="/privacy">

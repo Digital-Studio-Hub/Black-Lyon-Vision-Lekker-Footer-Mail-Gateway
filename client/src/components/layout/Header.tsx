@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import mainLogo from "@assets/Main_Logo_1770065674512.png";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -21,15 +22,12 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          <Link href="/" className="flex items-center gap-2">
-            <div className="flex items-center" data-testid="link-home-logo">
-              <span className="text-xl lg:text-2xl font-bold tracking-tight text-foreground">
-                BLACK LYON
-              </span>
-              <span className="text-xl lg:text-2xl font-light tracking-tight text-primary ml-1">
-                POWER
-              </span>
-            </div>
+          <Link href="/" className="flex items-center" data-testid="link-home-logo">
+            <img 
+              src={mainLogo} 
+              alt="Black Lyon Power Holdings - Building the Energy Infrastructure Africa Needs" 
+              className="h-12 lg:h-16 w-auto"
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">

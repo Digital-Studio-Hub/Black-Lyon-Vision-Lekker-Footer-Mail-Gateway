@@ -55,7 +55,7 @@ export default function Projects() {
     <Layout>
       <SEO
         title="Projects & Focus Areas"
-        description="Explore Black Lyon Power's utility-scale renewable energy projects targeting municipalities and industrial off-takers across South Africa."
+        description="Explore Black Lyon Power Holdings' utility-scale renewable energy projects targeting municipalities and industrial off-takers across South Africa."
         keywords="utility-scale solar projects, wind energy South Africa, municipal energy projects, industrial renewable energy"
       />
       {/* Hero Section */}
@@ -165,7 +165,7 @@ export default function Projects() {
                 National Reach, Local Impact
               </h2>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                Based in Cape Town, Black Lyon Power operates across South Africa, focusing on regions with strong renewable energy resources and favorable project economics.
+                Based in Cape Town, Black Lyon Power Holdings operates across South Africa, focusing on regions with strong renewable energy resources and favorable project economics.
               </p>
               <p className="mt-4 text-muted-foreground leading-relaxed">
                 We consider geographic factors including solar irradiance, wind resources, grid infrastructure, and land availability when evaluating project opportunities.

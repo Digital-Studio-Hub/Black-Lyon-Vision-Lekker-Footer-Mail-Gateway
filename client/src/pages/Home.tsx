@@ -10,7 +10,7 @@ export default function Home() {
     <Layout>
       <SEO
         title="Utility-Scale Renewable Energy Development"
-        description="Black Lyon Power develops utility-scale renewable energy projects for municipalities and industrial customers. Partnering to deliver reliable, large-scale clean energy across South Africa."
+        description="Black Lyon Power Holdings develops utility-scale renewable energy projects for municipalities and industrial customers. Building the energy infrastructure Africa needs."
         keywords="renewable energy development South Africa, utility-scale renewable projects, municipal renewable energy solutions, industrial clean energy partnerships"
       />
       {/* Hero Section */}
@@ -51,7 +51,7 @@ export default function Home() {
               Our Vision
             </h2>
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-              Black Lyon Power is positioned as a serious renewable energy developer and a long-term infrastructure partner. We serve as a credible counterpart to municipalities and industrial clients, operating as an investment-ready platform focused on sustainable energy development.
+              Black Lyon Power Holdings is positioned as a serious renewable energy developer and a long-term infrastructure partner. We serve as a credible counterpart to municipalities and industrial clients, operating as an investment-ready platform focused on sustainable energy development.
             </p>
           </div>
 

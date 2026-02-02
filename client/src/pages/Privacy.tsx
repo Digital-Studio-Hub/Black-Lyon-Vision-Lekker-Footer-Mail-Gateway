@@ -6,8 +6,8 @@ export default function Privacy() {
     <Layout>
       <SEO
         title="Privacy Policy"
-        description="Black Lyon Power's privacy policy explaining how we collect, use, and protect your personal information."
-        keywords="privacy policy, data protection, POPIA compliance, Black Lyon Power"
+        description="Black Lyon Power Holdings' privacy policy explaining how we collect, use, and protect your personal information."
+        keywords="privacy policy, data protection, POPIA compliance, Black Lyon Power Holdings"
       />
       <section className="py-20 lg:py-28 bg-background">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -21,7 +21,7 @@ export default function Privacy() {
 
             <h2 className="text-2xl font-semibold text-foreground mt-8 mb-4">1. Introduction</h2>
             <p>
-              Black Lyon Power ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+              Black Lyon Power Holdings ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
             </p>
 
             <h2 className="text-2xl font-semibold text-foreground mt-8 mb-4">2. Information We Collect</h2>

@@ -88,7 +88,7 @@ export default function Partnerships() {
     <Layout>
       <SEO
         title="Partnership Opportunities"
-        description="Explore partnership opportunities with Black Lyon Power for municipalities, industrial off-takers, investors, and strategic collaborators."
+        description="Explore partnership opportunities with Black Lyon Power Holdings for municipalities, industrial off-takers, investors, and strategic collaborators."
         keywords="renewable energy partnerships, municipal energy partnerships, industrial off-takers, energy investment South Africa"
       />
       {/* Hero Section */}
@@ -102,7 +102,7 @@ export default function Partnerships() {
               Partnership Opportunities
             </h1>
             <p className="mt-6 text-lg lg:text-xl text-muted-foreground leading-relaxed">
-              Black Lyon Power seeks partnerships with municipalities, industrial off-takers, investors, and strategic collaborators who share our vision for sustainable energy development.
+              Black Lyon Power Holdings seeks partnerships with municipalities, industrial off-takers, investors, and strategic collaborators who share our vision for sustainable energy development.
             </p>
           </div>
         </div>
@@ -117,7 +117,7 @@ export default function Partnerships() {
                 How We Partner
               </h2>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                At Black Lyon Power, we approach every partnership with a long-term perspective. We believe that successful renewable energy development requires alignment of interests, transparent communication, and shared commitment to excellence.
+                At Black Lyon Power Holdings, we approach every partnership with a long-term perspective. We believe that successful renewable energy development requires alignment of interests, transparent communication, and shared commitment to excellence.
               </p>
               <p className="mt-4 text-muted-foreground leading-relaxed">
                 Whether you're a municipality seeking to enhance energy security, an industrial enterprise looking for reliable clean energy, or an investor exploring opportunities in renewable infrastructure, we welcome the opportunity to explore how we might work together.
@@ -249,7 +249,7 @@ export default function Partnerships() {
               Ready to Discuss a Partnership?
             </h2>
             <p className="mt-6 text-lg text-muted-foreground">
-              We welcome the opportunity to explore how Black Lyon Power can support your renewable energy objectives.
+              We welcome the opportunity to explore how Black Lyon Power Holdings can support your renewable energy objectives.
             </p>
             <Link href="/contact" className="inline-block mt-8">
               <Button size="lg" className="gap-2" data-testid="button-partnerships-contact">

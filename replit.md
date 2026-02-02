@@ -1,7 +1,9 @@
-# Black Lyon Power Website
+# Black Lyon Power Holdings Website
 
 ## Project Overview
-A premium, corporate-grade website for Black Lyon Power, a renewable energy development platform focused on acquiring and developing utility-scale renewable energy projects for municipalities and industrial customers in South Africa.
+A premium, corporate-grade website for Black Lyon Power Holdings, a renewable energy development platform focused on acquiring and developing utility-scale renewable energy projects for municipalities and industrial customers in South Africa.
+
+**Tagline:** Building the Energy Infrastructure Africa Needs
 
 ## Tech Stack
 - **Frontend**: React + TypeScript + Vite
@@ -12,19 +14,37 @@ A premium, corporate-grade website for Black Lyon Power, a renewable energy deve
 - **Forms**: React Hook Form + Zod validation
 - **Data Fetching**: TanStack Query
 
+## Brand Color Palette
+| Role           | Hex         | HSL |
+| -------------- | ----------- | --- |
+| Primary Gold   | #BD6D2C | hsl(26, 63%, 46%) |
+| Secondary Gold | #CFAC73 | hsl(39, 50%, 63%) |
+| Light Accent   | #F3E9D1 | hsl(40, 58%, 88%) |
+| Black Base     | #000000 | hsl(0, 0%, 0%) |
+| Dark Neutral   | #3A3531 | hsl(27, 7%, 21%) |
+| Soft Neutral   | #827C73 | hsl(36, 7%, 48%) |
+
+### Strategic Color Usage
+- **Power / Action / CTAs:** Primary Gold (#BD6D2C)
+- **Premium surfaces / headers:** Secondary Gold (#CFAC73)
+- **Background light sections:** Light Accent (#F3E9D1)
+- **Text + authority:** Black Base (#000000)
+- **UI depth:** Dark Neutral (#3A3531)
+
 ## Project Structure
 ```
 ├── client/
 │   ├── src/
 │   │   ├── components/
 │   │   │   ├── layout/
-│   │   │   │   ├── Header.tsx      # Navigation header
+│   │   │   │   ├── Header.tsx      # Navigation header with lion logo
 │   │   │   │   ├── Footer.tsx      # Footer with Lekker Network integration
 │   │   │   │   └── Layout.tsx      # Main layout wrapper
+│   │   │   ├── SEO.tsx             # Per-page SEO meta tags
 │   │   │   └── ui/                 # Shadcn UI components
 │   │   ├── pages/
 │   │   │   ├── Home.tsx            # Landing page
-│   │   │   ├── About.tsx           # About Black Lyon Power
+│   │   │   ├── About.tsx           # About Black Lyon Power Holdings
 │   │   │   ├── Approach.tsx        # Development approach
 │   │   │   ├── Projects.tsx        # Projects & focus areas
 │   │   │   ├── Sustainability.tsx  # Sustainability & impact
@@ -33,38 +53,34 @@ A premium, corporate-grade website for Black Lyon Power, a renewable energy deve
 │   │   │   ├── Privacy.tsx         # Privacy policy
 │   │   │   └── Terms.tsx           # Terms of use
 │   │   ├── App.tsx                 # Main app with routes
-│   │   └── index.css               # Tailwind + custom theme
+│   │   └── index.css               # Tailwind + gold/black theme
 │   └── public/
-│       ├── favicon.png             # Site favicon
-│       └── favicon.ico             # Site favicon (ico format)
+│       ├── favicon.png             # Lion head favicon
+│       └── favicon.ico             # Lion head favicon (ico format)
 ├── server/
 │   ├── routes.ts                   # API routes including /api/send-mail
 │   └── storage.ts                  # Storage interface
 ├── shared/
 │   └── schema.ts                   # Contact form schema
 └── attached_assets/
+    ├── Main_Logo_1770065674512.png     # Main company logo
+    ├── favicon_1770065674511.png       # Lion head favicon
     ├── lekkerlogo_1770062686308.png    # Lekker Network logo
-    └── Badge_Level_1_1770062694049.png  # Lekker Network badge
+    └── Badge_Level_1_1770062694049.png # Lekker Network badge
 ```
 
 ## Key Features
-1. **Premium Corporate Design**: Executive-grade UI with clean, authoritative styling
-2. **Responsive Navigation**: Mobile-friendly header with hamburger menu
+1. **Premium Corporate Design**: Executive-grade UI with gold/black color scheme
+2. **Responsive Navigation**: Mobile-friendly header with lion logo
 3. **Contact Form**: Professional contact form with ZeptoMail integration
 4. **Lekker Network Integration**: 
    - Logo centered in footer linking to https://lekker.network/
    - Verified badge linking to https://lekker.network/the-lekker-network-verified
-5. **SEO Optimized**: Meta tags, Open Graph, and semantic HTML
+5. **SEO Optimized**: Per-page meta tags, Open Graph, and semantic HTML
 
 ## Environment Variables
 - `ZEPTOMAIL_TOKEN`: ZeptoMail API key for email delivery
 - `ADMIN_EMAIL`: Email address for receiving contact form submissions
-
-## Design System
-- **Primary Color**: Muted green (hsl 158 32% 32%) - sustainability/energy
-- **Background**: Clean white/off-white
-- **Typography**: Manrope (headings) + Inter (body)
-- **Border Radius**: Subtle 6px (0.375rem)
 
 ## Contact Information
 - **Email**: info@blacklyonpower.co.za

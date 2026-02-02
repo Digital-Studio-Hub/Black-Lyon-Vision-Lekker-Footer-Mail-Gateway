@@ -54,8 +54,8 @@ export default function Contact() {
     <Layout>
       <SEO
         title="Contact Us"
-        description="Get in touch with Black Lyon Power. Contact us for partnership enquiries, project discussions, or general information about our renewable energy development services."
-        keywords="contact Black Lyon Power, renewable energy enquiries, partnership contact, Cape Town energy company"
+        description="Get in touch with Black Lyon Power Holdings. Contact us for partnership enquiries, project discussions, or general information about our renewable energy development services."
+        keywords="contact Black Lyon Power Holdings, renewable energy enquiries, partnership contact, Cape Town energy company"
       />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-card to-background">

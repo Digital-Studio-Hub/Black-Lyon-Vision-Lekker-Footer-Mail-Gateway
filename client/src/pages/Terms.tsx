@@ -6,8 +6,8 @@ export default function Terms() {
     <Layout>
       <SEO
         title="Terms of Use"
-        description="Terms and conditions for using the Black Lyon Power website."
-        keywords="terms of use, website terms, Black Lyon Power terms, legal"
+        description="Terms and conditions for using the Black Lyon Power Holdings website."
+        keywords="terms of use, website terms, Black Lyon Power Holdings terms, legal"
       />
       <section className="py-20 lg:py-28 bg-background">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -21,7 +21,7 @@ export default function Terms() {
 
             <h2 className="text-2xl font-semibold text-foreground mt-8 mb-4">1. Acceptance of Terms</h2>
             <p>
-              By accessing and using the Black Lyon Power website ("the Website"), you accept and agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use the Website.
+              By accessing and using the Black Lyon Power Holdings website ("the Website"), you accept and agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use the Website.
             </p>
 
             <h2 className="text-2xl font-semibold text-foreground mt-8 mb-4">2. Use of Website</h2>
@@ -37,17 +37,17 @@ export default function Terms() {
 
             <h2 className="text-2xl font-semibold text-foreground mt-8 mb-4">3. Intellectual Property</h2>
             <p>
-              The Website and its entire contents, features, and functionality are owned by Black Lyon Power and are protected by copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, modify, or create derivative works without our express written permission.
+              The Website and its entire contents, features, and functionality are owned by Black Lyon Power Holdings and are protected by copyright, trademark, and other intellectual property laws. You may not reproduce, distribute, modify, or create derivative works without our express written permission.
             </p>
 
             <h2 className="text-2xl font-semibold text-foreground mt-8 mb-4">4. Disclaimer of Warranties</h2>
             <p>
-              The Website is provided "as is" and "as available" without any warranties of any kind, either express or implied. Black Lyon Power does not warrant that the Website will be uninterrupted, error-free, or free of viruses or other harmful components.
+              The Website is provided "as is" and "as available" without any warranties of any kind, either express or implied. Black Lyon Power Holdings does not warrant that the Website will be uninterrupted, error-free, or free of viruses or other harmful components.
             </p>
 
             <h2 className="text-2xl font-semibold text-foreground mt-8 mb-4">5. Limitation of Liability</h2>
             <p>
-              To the fullest extent permitted by law, Black Lyon Power shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or relating to your use of the Website.
+              To the fullest extent permitted by law, Black Lyon Power Holdings shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or relating to your use of the Website.
             </p>
 
             <h2 className="text-2xl font-semibold text-foreground mt-8 mb-4">6. Third-Party Links</h2>

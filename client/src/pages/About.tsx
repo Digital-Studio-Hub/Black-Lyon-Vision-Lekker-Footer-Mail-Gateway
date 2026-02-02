@@ -10,8 +10,8 @@ export default function About() {
     <Layout>
       <SEO
         title="About Us"
-        description="Learn about Black Lyon Power, a renewable energy development platform focused on acquiring and developing utility-scale renewable energy projects for municipalities and industrial customers."
-        keywords="Black Lyon Power, renewable energy developer, South Africa energy, clean energy company"
+        description="Learn about Black Lyon Power Holdings, a renewable energy development platform focused on acquiring and developing utility-scale renewable energy projects for municipalities and industrial customers."
+        keywords="Black Lyon Power Holdings, renewable energy developer, South Africa energy, clean energy company"
       />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-card to-background">
@@ -39,7 +39,7 @@ export default function About() {
                 Our Mission
               </h2>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                Black Lyon Power exists to accelerate South Africa's transition to sustainable energy by developing, financing, and managing utility-scale renewable energy infrastructure.
+                Black Lyon Power Holdings exists to accelerate South Africa's transition to sustainable energy by developing, financing, and managing utility-scale renewable energy infrastructure.
               </p>
               <p className="mt-4 text-lg text-muted-foreground leading-relaxed">
                 We are committed to creating lasting partnerships with municipalities, industrial enterprises, and investors who share our vision for a cleaner, more resilient energy future.
@@ -132,7 +132,7 @@ export default function About() {
               <div className="aspect-[4/3] rounded-md bg-gradient-to-br from-primary/20 via-primary/10 to-accent flex items-center justify-center">
                 <div className="text-center p-8">
                   <div className="text-6xl font-bold text-primary mb-4">BLP</div>
-                  <div className="text-xl font-medium text-foreground">Black Lyon Power</div>
+                  <div className="text-xl font-medium text-foreground">Black Lyon Power Holdings</div>
                   <div className="text-muted-foreground mt-2">Cape Town, South Africa</div>
                 </div>
               </div>
@@ -142,7 +142,7 @@ export default function About() {
                 Commitment to Responsible Development
               </h2>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                At Black Lyon Power, responsible development is not just a principle—it's the foundation of our business. We believe that successful renewable energy projects must benefit all stakeholders: communities, the environment, and investors alike.
+                At Black Lyon Power Holdings, responsible development is not just a principle—it's the foundation of our business. We believe that successful renewable energy projects must benefit all stakeholders: communities, the environment, and investors alike.
               </p>
               <p className="mt-4 text-muted-foreground leading-relaxed">
                 Our projects are designed to create lasting positive impact, from local job creation during construction to long-term economic benefits from clean energy production. We engage proactively with communities and regulatory bodies to ensure our projects meet the highest standards of environmental and social responsibility.
