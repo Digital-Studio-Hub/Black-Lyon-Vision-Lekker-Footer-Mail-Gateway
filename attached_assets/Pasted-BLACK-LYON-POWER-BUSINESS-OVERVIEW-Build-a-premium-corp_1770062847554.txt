@@ -1,0 +1,291 @@
+BLACK LYON POWER
+BUSINESS OVERVIEW
+Build a premium, corporate-grade website for Black Lyon Power, a renewable energy development platform focused on acquiring and developing utility-scale renewable energy projects for municipalities and industrial customers.
+
+Business Name: Black Lyon Power
+Founder / Contact: Vuyo
+Location: Cape Town, South Africa
+Domains to Register:
+
+blacklyonpower.co.za (primary)
+
+blacklyonpower.com (secondary, redirect)
+
+Email (to be created): info@blacklyonpower.co.za
+Contact Number: +27 66 383 0269
+
+CORE POSITIONING
+Black Lyon Power must be positioned as:
+
+A serious renewable energy developer
+
+A long-term infrastructure partner
+
+A credible counterpart to municipalities and industrial clients
+
+An investment-ready platform, not a contractor or installer
+
+This is not a consumer solar website.
+
+PRIMARY WEBSITE PURPOSE
+The website must:
+
+Clearly articulate what Black Lyon Power seeks to achieve
+
+Communicate the company’s development approach
+
+Define the types of renewable energy projects the company targets
+
+Establish credibility, scale, and long-term vision
+
+Support partnership, project, and stakeholder enquiries
+
+No pricing.
+No product sales.
+No consumer CTAs.
+
+TARGET AUDIENCE
+Municipalities
+
+Industrial energy users
+
+Infrastructure investors
+
+Strategic partners
+
+Government and regulatory stakeholders
+
+Energy sector professionals
+
+DESIGN & UI/UX DIRECTION (HIGH-END)
+Visual Style
+Corporate
+
+Minimalist
+
+Executive
+
+Clean energy aesthetic
+
+Calm, confident, restrained
+
+Avoid:
+
+Sales-driven layouts
+
+Bright consumer colours
+
+Over-animation
+
+Template-style sections
+
+COLOUR PALETTE (RECOMMENDED)
+Primary: Deep charcoal / near-black (authority)
+
+Secondary: White / soft grey (clarity)
+
+Accent: Muted green or energy blue (sustainability)
+
+Accent usage must be minimal and intentional
+
+TYPOGRAPHY
+Headings: Modern sans-serif (Inter, Manrope, or similar)
+
+Body: Clean, readable corporate font
+
+Strong hierarchy, generous spacing
+
+WEBSITE STRUCTURE (SITEMAP)
+/
+├── Home
+├── About Black Lyon Power
+├── Our Approach
+├── Projects & Focus Areas
+├── Sustainability & Impact
+├── Partnerships
+├── Contact
+├── Privacy Policy
+└── Terms of Use
+
+PAGE SPECIFICATIONS
+1. Home
+Purpose: Establish authority and vision immediately.
+
+Hero headline example:
+Developing Utility-Scale Renewable Energy for a Sustainable Future
+
+Subheading:
+Partnering with municipalities and industry to deliver reliable, large-scale clean energy.
+
+Sections:
+
+Vision & purpose
+
+Development approach overview
+
+Project focus summary
+
+Sustainability commitment
+
+CTA: Contact Us
+
+2. About Black Lyon Power
+Include:
+
+Company mission and long-term vision
+
+Role in the renewable energy ecosystem
+
+Commitment to responsible development
+
+Cape Town base with national relevance
+
+Tone: Strategic, confident, measured.
+
+3. Our Approach
+Detail:
+
+Project identification
+
+Development lifecycle
+
+Stakeholder engagement
+
+Regulatory and compliance considerations
+
+Long-term asset thinking
+
+This page builds institutional trust.
+
+4. Projects & Focus Areas
+Explain:
+
+Types of projects sought (utility-scale renewable energy)
+
+Target customers (municipal, industrial)
+
+Geographic considerations
+
+Development vs acquisition strategy
+
+Avoid listing speculative projects unless confirmed.
+
+5. Sustainability & Impact
+Cover:
+
+Environmental responsibility
+
+Economic impact
+
+Contribution to energy security
+
+Alignment with national and global sustainability goals
+
+6. Partnerships
+Explain:
+
+How Black Lyon Power works with partners
+
+Municipal collaboration
+
+Industrial off-takers
+
+Strategic investors and advisors (if applicable)
+
+CTA:
+Discuss a Partnership
+
+7. Contact
+Simple, professional contact page:
+
+Contact form (Name, Organisation, Email, Message)
+
+Email: info@blacklyonpower.co.za
+
+Phone number
+
+No sales language
+
+SEO & CONTENT STRATEGY (HIGH-GRADE)
+SEO FOCUS
+Renewable energy development South Africa
+
+Utility-scale renewable projects
+
+Municipal renewable energy solutions
+
+Industrial clean energy partnerships
+
+Schema
+Organization
+
+Website
+
+BreadcrumbList
+
+No blog required at launch, but structure must allow future expansion.
+
+TECHNICAL REQUIREMENTS
+Ultra-fast performance (<1.5s load)
+
+Mobile-first responsive design
+
+HTTPS + SSL
+
+Clean, semantic HTML
+
+CMS-based for future updates
+
+Domain registration + redirects configured
+
+IMAGES & MEDIA
+Use supplied company material when received
+
+Supplement with:
+
+High-quality renewable energy imagery
+
+Infrastructure and landscape visuals
+
+No generic stock clichés
+
+WebP format
+
+Subtle motion only if justified
+
+EXCLUSIONS (IMPORTANT)
+No pricing
+
+No consumer funnels
+
+No pop-ups
+
+No aggressive CTAs
+
+No e-commerce
+
+No login portals
+
+FINAL DELIVERABLES
+Executive-grade corporate website
+
+Clear positioning as a renewable energy developer
+
+SEO-ready structure
+
+Domain registered and live
+
+Professional email configured
+
+Scalable for investor and project announcements
+
+SUCCESS STANDARD
+The website must:
+
+Instantly convey credibility and seriousness
+
+Be appropriate for municipal and industrial stakeholders
+
+Support future growth, partnerships, and funding discussions
+
+Compete visually with established energy developers
