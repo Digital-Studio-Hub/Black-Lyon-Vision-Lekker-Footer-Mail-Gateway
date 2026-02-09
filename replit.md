@@ -1,7 +1,7 @@
-# Black Lyon Power Holdings Website
+# Blacklyon Power Holdings Website
 
 ## Project Overview
-A premium, corporate-grade website for Black Lyon Power Holdings, a renewable energy development platform focused on acquiring and developing utility-scale renewable energy projects for municipalities and industrial customers in South Africa.
+A premium, corporate-grade website for Blacklyon Power Holdings (BPH), a South African based renewable energy and infrastructure development platform focused on originating, developing, and owning bankable clean energy assets across Southern Africa.
 
 **Tagline:** Building the Energy Infrastructure Africa Needs
 
@@ -43,13 +43,13 @@ A premium, corporate-grade website for Black Lyon Power Holdings, a renewable en
 │   │   │   ├── SEO.tsx             # Per-page SEO meta tags
 │   │   │   └── ui/                 # Shadcn UI components
 │   │   ├── pages/
-│   │   │   ├── Home.tsx            # Landing page
-│   │   │   ├── About.tsx           # About Black Lyon Power Holdings
-│   │   │   ├── Approach.tsx        # Development approach
-│   │   │   ├── Projects.tsx        # Projects & focus areas
-│   │   │   ├── Sustainability.tsx  # Sustainability & impact
-│   │   │   ├── Partnerships.tsx    # Partnership opportunities
-│   │   │   ├── Contact.tsx         # Contact form
+│   │   │   ├── Home.tsx            # Landing page with purpose/vision/mission, why BPH, values
+│   │   │   ├── About.tsx           # About BPH, founder's note, values, leadership, ambition
+│   │   │   ├── Approach.tsx        # Development philosophy & lifecycle
+│   │   │   ├── Projects.tsx        # Projects & focus areas (solar/hybrid)
+│   │   │   ├── Sustainability.tsx  # ESG & Impact
+│   │   │   ├── Partnerships.tsx    # Partner with us
+│   │   │   ├── Contact.tsx         # Start a conversation / contact form
 │   │   │   ├── Privacy.tsx         # Privacy policy
 │   │   │   └── Terms.tsx           # Terms of use
 │   │   ├── App.tsx                 # Main app with routes
@@ -77,6 +77,24 @@ A premium, corporate-grade website for Black Lyon Power Holdings, a renewable en
    - Logo centered in footer linking to https://lekker.network/
    - Verified badge linking to https://lekker.network/the-lekker-network-verified
 5. **SEO Optimized**: Per-page meta tags, Open Graph, and semantic HTML
+6. **Level 1 B-BBEE**: Referenced in content and differentiators
+
+## Navigation Labels
+- Home
+- About
+- Development Focus (Approach page)
+- Projects
+- ESG & Impact (Sustainability page)
+- Partner With Us (Partnerships page)
+- Contact
+
+## Key Brand Messaging
+- "Building the Energy Infrastructure Africa Needs"
+- "Trusted. Responsible. Enduring."
+- "We are not building narratives. We are building assets."
+- "ESG is embedded — not marketed"
+- "If your capital is patient and your perspective long-term, we welcome the conversation"
+- Developer-owner mindset
 
 ## Environment Variables
 - `ZEPTOMAIL_TOKEN`: ZeptoMail API key for email delivery

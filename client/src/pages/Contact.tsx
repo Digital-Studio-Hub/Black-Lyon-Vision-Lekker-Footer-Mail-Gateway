@@ -53,22 +53,22 @@ export default function Contact() {
   return (
     <Layout>
       <SEO
-        title="Contact Us"
-        description="Get in touch with Black Lyon Power Holdings. Contact us for partnership enquiries, project discussions, or general information about our renewable energy development services."
-        keywords="contact Black Lyon Power Holdings, renewable energy enquiries, partnership contact, Cape Town energy company"
+        title="Start a Conversation"
+        description="Engage with Blacklyon Power Holdings. Contact us for partnership enquiries, project discussions, or to explore how we can work together on clean energy infrastructure."
+        keywords="contact Blacklyon Power Holdings, renewable energy enquiries, partnership contact, Cape Town energy company, start a conversation"
       />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-card to-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
           <div className="max-w-3xl">
             <span className="text-sm font-medium text-primary uppercase tracking-wider">
-              Get in Touch
+              Engage With Us
             </span>
             <h1 className="mt-4 text-4xl sm:text-5xl font-bold text-foreground tracking-tight">
-              Contact Us
+              Start a Conversation
             </h1>
             <p className="mt-6 text-lg lg:text-xl text-muted-foreground leading-relaxed">
-              Whether you represent a municipality, industrial enterprise, or investment group, we welcome the opportunity to discuss how we can work together.
+              If your capital is patient and your perspective long-term, we welcome the conversation. We engage with institutional and development finance partners, EPC and technology providers, public-sector entities, utilities, and large off-takers.
             </p>
           </div>
         </div>

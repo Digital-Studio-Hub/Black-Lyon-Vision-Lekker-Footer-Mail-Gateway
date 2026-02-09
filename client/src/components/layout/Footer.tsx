@@ -15,12 +15,12 @@ export function Footer() {
             <Link href="/" className="block mb-4">
               <img 
                 src={mainLogo} 
-                alt="Black Lyon Power Holdings" 
+                alt="Blacklyon Power Holdings" 
                 className="h-16 w-auto"
               />
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Building the Energy Infrastructure Africa Needs. Developing utility-scale renewable energy projects across South Africa.
+              Building the Energy Infrastructure Africa Needs. Originating, developing, and owning bankable clean energy assets across Southern Africa.
             </p>
           </div>
 
@@ -40,7 +40,7 @@ export function Footer() {
               <li>
                 <Link href="/approach">
                   <span className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="footer-link-approach">
-                    Our Approach
+                    Development Focus
                   </span>
                 </Link>
               </li>
@@ -54,7 +54,7 @@ export function Footer() {
               <li>
                 <Link href="/sustainability">
                   <span className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="footer-link-sustainability">
-                    Sustainability
+                    ESG & Impact
                   </span>
                 </Link>
               </li>
@@ -70,7 +70,7 @@ export function Footer() {
               <li>
                 <Link href="/partnerships">
                   <span className="text-sm text-muted-foreground hover:text-foreground transition-colors" data-testid="footer-link-partnerships">
-                    Partnerships
+                    Partner With Us
                   </span>
                 </Link>
               </li>
@@ -150,7 +150,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} Black Lyon Power Holdings. All rights reserved.
+              © {currentYear} Blacklyon Power Holdings. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <Link href="/privacy">

@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { ArrowRight, Search, FileCheck, Users, Scale, HardHat, Settings } from "lucide-react";
+import { ArrowRight, Search, FileCheck, Users, Scale, HardHat, Settings, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Layout } from "@/components/layout/Layout";
@@ -8,8 +8,8 @@ import { SEO } from "@/components/SEO";
 const developmentPhases = [
   {
     icon: Search,
-    title: "Project Identification",
-    description: "We systematically identify and evaluate potential renewable energy projects, considering factors such as resource availability, grid connectivity, land suitability, and market demand.",
+    title: "Project Origination",
+    description: "We systematically identify and evaluate potential renewable energy projects, considering resource availability, grid connectivity, land suitability, and market demand.",
     details: [
       "Resource assessment and site analysis",
       "Preliminary feasibility screening",
@@ -19,13 +19,13 @@ const developmentPhases = [
   },
   {
     icon: FileCheck,
-    title: "Development Planning",
-    description: "Our development process encompasses comprehensive planning, including technical design, environmental assessments, and regulatory approvals.",
+    title: "Development & Structuring",
+    description: "Our development process encompasses comprehensive planning — technical design, environmental assessments, regulatory approvals, and financial structuring for bankability.",
     details: [
       "Technical design and engineering",
       "Environmental impact assessments",
       "Permitting and licensing",
-      "Grid connection planning",
+      "Financial structuring for institutional capital",
     ],
   },
   {
@@ -34,9 +34,9 @@ const developmentPhases = [
     description: "We believe in proactive and transparent engagement with all stakeholders, building trust and ensuring alignment throughout the project lifecycle.",
     details: [
       "Community consultation and outreach",
-      "Municipal and government relations",
+      "Government and municipal relations",
       "Off-taker negotiations",
-      "Investor communications",
+      "Investor and financier communications",
     ],
   },
   {
@@ -52,24 +52,24 @@ const developmentPhases = [
   },
   {
     icon: HardHat,
-    title: "Construction Oversight",
-    description: "We manage the construction phase to ensure projects are delivered on time, on budget, and to the highest quality standards.",
+    title: "Financial Close & Delivery",
+    description: "We manage projects through financial close and into construction delivery, ensuring they are executed on time, on budget, and to the highest quality standards.",
     details: [
-      "Contractor selection and management",
+      "Financial close coordination",
+      "EPC contractor management",
       "Quality assurance and control",
-      "Schedule and budget management",
-      "Health and safety oversight",
+      "Schedule and budget oversight",
     ],
   },
   {
     icon: Settings,
-    title: "Asset Management",
-    description: "Our long-term thinking extends beyond project completion to ensure optimal performance and value creation throughout the asset's lifecycle.",
+    title: "Long-Term Ownership",
+    description: "Our developer-owner mindset extends beyond project completion. We retain long-term value while ensuring optimal performance throughout the asset's lifecycle.",
     details: [
       "Performance monitoring and optimization",
-      "Operations and maintenance",
-      "Revenue management",
-      "Asset lifecycle planning",
+      "Operations and maintenance oversight",
+      "Revenue and asset management",
+      "Measurable ESG outcome delivery",
     ],
   },
 ];
@@ -78,28 +78,28 @@ export default function Approach() {
   return (
     <Layout>
       <SEO
-        title="Our Development Approach"
-        description="Discover Black Lyon Power Holdings' systematic approach to developing utility-scale renewable energy projects from identification through to long-term asset management."
-        keywords="renewable energy development approach, project development lifecycle, energy infrastructure, South Africa renewable projects"
+        title="Our Development Focus"
+        description="Blacklyon Power Holdings operates with a developer-owner mindset, managing projects from origination through financial close and into delivery. Execution-first discipline, bankability focus."
+        keywords="renewable energy development, project origination, bankable assets, developer-owner, energy infrastructure, South Africa renewable projects"
       />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-card to-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
           <div className="max-w-3xl">
             <span className="text-sm font-medium text-primary uppercase tracking-wider">
-              Our Methodology
+              Our Development Focus
             </span>
             <h1 className="mt-4 text-4xl sm:text-5xl font-bold text-foreground tracking-tight">
-              Our Development Approach
+              Our Development Philosophy
             </h1>
             <p className="mt-6 text-lg lg:text-xl text-muted-foreground leading-relaxed">
-              A systematic, disciplined approach to developing utility-scale renewable energy projects that deliver long-term value for all stakeholders.
+              We operate with a developer-owner mindset, managing projects from origination through financial close and into delivery. Execution-first discipline drives everything we do.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Approach Overview */}
+      {/* Development Lifecycle */}
       <section className="py-20 lg:py-28 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-16">
@@ -107,7 +107,7 @@ export default function Approach() {
               The Development Lifecycle
             </h2>
             <p className="mt-6 text-lg text-muted-foreground">
-              Our approach encompasses the entire project lifecycle, from identification through to long-term asset management.
+              From origination to long-term ownership — a disciplined, end-to-end approach to renewable energy development.
             </p>
           </div>
 
@@ -145,32 +145,29 @@ export default function Approach() {
         </div>
       </section>
 
-      {/* Long-Term Thinking Section */}
+      {/* Why BPH Differentiators */}
       <section className="py-20 lg:py-28 bg-card">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
               <span className="text-sm font-medium text-primary uppercase tracking-wider">
-                Our Philosophy
+                Why BPH
               </span>
               <h2 className="mt-4 text-3xl lg:text-4xl font-bold text-foreground tracking-tight">
-                Long-Term Asset Thinking
+                Ambition Combined with Realism
               </h2>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                We approach every project with a long-term perspective. Renewable energy infrastructure represents a multi-decade commitment, and our development process reflects this reality.
-              </p>
-              <p className="mt-4 text-muted-foreground leading-relaxed">
-                From site selection to technical design, from stakeholder relationships to operational planning, every decision is made with the full lifecycle of the asset in mind. This discipline ensures that our projects deliver sustainable value for communities, off-takers, and investors alike.
+                BPH combines ambition with realism. We understand where we are starting — and we are uncompromising about where we intend to go.
               </p>
               <div className="mt-8 p-6 bg-background rounded-md">
-                <h4 className="text-lg font-semibold text-foreground mb-4">Key Principles</h4>
+                <h4 className="text-lg font-semibold text-foreground mb-4">Key Differentiators</h4>
                 <ul className="space-y-3">
                   {[
-                    "Quality over speed in project development",
-                    "Sustainable relationships with all stakeholders",
-                    "Rigorous technical and financial analysis",
-                    "Proactive risk management",
-                    "Continuous improvement and optimization",
+                    "Execution-first discipline — fundamentals before scale",
+                    "Bankability focus — projects structured for institutional investment",
+                    "Credible partnerships — collaboration with proven EPC and technology providers",
+                    "Long-term alignment — patient capital, durable assets",
+                    "South African-rooted, regional outlook — built in South Africa, designed for Southern Africa",
                   ].map((principle, index) => (
                     <li key={index} className="flex items-start gap-3">
                       <div className="w-5 h-5 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -190,7 +187,7 @@ export default function Approach() {
                     <div className="text-muted-foreground mt-2">Year Asset Lifecycle</div>
                   </div>
                   <div className="space-y-4">
-                    {["Development", "Construction", "Operations", "Optimization"].map((phase, index) => (
+                    {["Origination", "Development", "Financial Close", "Ownership"].map((phase, index) => (
                       <div key={index} className="flex items-center gap-4">
                         <div className="w-8 h-8 rounded-full bg-background flex items-center justify-center text-sm font-medium text-primary">
                           {index + 1}
@@ -201,7 +198,7 @@ export default function Approach() {
                             style={{ width: `${100 - index * 15}%` }}
                           />
                         </div>
-                        <span className="text-sm text-muted-foreground w-24">{phase}</span>
+                        <span className="text-sm text-muted-foreground w-28">{phase}</span>
                       </div>
                     ))}
                   </div>
@@ -217,10 +214,10 @@ export default function Approach() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground tracking-tight">
-              Explore Our Project Criteria
+              Explore Our Project Focus
             </h2>
             <p className="mt-6 text-lg text-muted-foreground">
-              Learn about the types of projects we pursue and our target markets.
+              Learn about the types of projects we develop and the markets we serve.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/projects">
@@ -231,7 +228,7 @@ export default function Approach() {
               </Link>
               <Link href="/partnerships">
                 <Button variant="outline" data-testid="button-approach-partnerships">
-                  Partnership Opportunities
+                  Partner With Us
                 </Button>
               </Link>
             </div>

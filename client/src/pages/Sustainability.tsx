@@ -1,53 +1,53 @@
 import { Link } from "wouter";
-import { ArrowRight, Leaf, Globe, TrendingUp, Users, Sun, Recycle } from "lucide-react";
+import { ArrowRight, Leaf, Globe, TrendingUp, Users, Sun, Recycle, Shield, CheckCircle2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Layout } from "@/components/layout/Layout";
 import { SEO } from "@/components/SEO";
 
-const impactAreas = [
+const esgPillars = [
   {
     icon: Leaf,
-    title: "Environmental Responsibility",
-    description: "We develop projects that minimize environmental impact while maximizing clean energy production.",
+    title: "Decarbonisation",
+    description: "Support decarbonisation while strengthening energy reliability through the development of clean power infrastructure.",
     points: [
       "Comprehensive environmental impact assessments",
+      "Carbon emission reduction through clean energy generation",
       "Biodiversity protection measures",
       "Land use optimization strategies",
-      "Water conservation practices",
     ],
   },
   {
-    icon: TrendingUp,
-    title: "Economic Impact",
-    description: "Our projects generate significant economic benefits for local communities and the broader economy.",
+    icon: Users,
+    title: "Inclusive Participation",
+    description: "Enable inclusive local economic participation, creating lasting value in the communities where we operate.",
     points: [
       "Local job creation during construction and operations",
-      "Skills development and training programs",
+      "Skills development and training programmes",
       "Local procurement and supplier development",
       "Community benefit sharing initiatives",
     ],
   },
   {
     icon: Globe,
-    title: "Energy Security",
-    description: "We contribute to South Africa's energy security by developing reliable renewable energy capacity.",
+    title: "International Standards",
+    description: "Meet international environmental, social, and governance standards in every project we develop.",
     points: [
-      "Diversified energy supply sources",
-      "Reduced dependence on imported fuels",
-      "Enhanced grid stability and resilience",
-      "Support for national energy transition",
+      "Alignment with UN Sustainable Development Goals",
+      "POPIA and data protection compliance",
+      "Transparent reporting and governance",
+      "Independent environmental oversight",
     ],
   },
   {
-    icon: Users,
-    title: "Community Engagement",
-    description: "We believe in meaningful engagement with the communities where we operate.",
+    icon: Shield,
+    title: "Community Trust",
+    description: "Build lasting trust with host communities and stakeholders through meaningful engagement and transparent communication.",
     points: [
-      "Transparent communication and consultation",
-      "Community development initiatives",
-      "Education and awareness programs",
+      "Proactive community consultation",
+      "Transparent project communication",
       "Long-term community partnerships",
+      "Education and awareness programmes",
     ],
   },
 ];
@@ -55,7 +55,7 @@ const impactAreas = [
 const sdgAlignment = [
   { number: 7, title: "Affordable and Clean Energy", description: "Ensuring access to affordable, reliable, sustainable energy" },
   { number: 8, title: "Decent Work and Economic Growth", description: "Promoting sustained, inclusive economic growth and employment" },
-  { number: 9, title: "Industry, Innovation and Infrastructure", description: "Building resilient infrastructure and sustainable industrialization" },
+  { number: 9, title: "Industry, Innovation and Infrastructure", description: "Building resilient infrastructure and sustainable industrialisation" },
   { number: 13, title: "Climate Action", description: "Taking urgent action to combat climate change and its impacts" },
 ];
 
@@ -63,40 +63,40 @@ export default function Sustainability() {
   return (
     <Layout>
       <SEO
-        title="Sustainability & Impact"
-        description="Discover how Black Lyon Power Holdings prioritizes environmental responsibility, economic impact, and energy security in all our renewable energy projects."
-        keywords="sustainable energy South Africa, renewable energy impact, environmental responsibility, clean energy development"
+        title="ESG & Impact"
+        description="At Blacklyon Power Holdings, ESG is embedded — not marketed. Our projects support decarbonisation, inclusive participation, international standards, and lasting community trust."
+        keywords="ESG renewable energy, sustainable energy South Africa, environmental social governance, clean energy impact, responsible infrastructure"
       />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-card to-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
           <div className="max-w-3xl">
             <span className="text-sm font-medium text-primary uppercase tracking-wider">
-              Our Commitment
+              Our ESG Commitment
             </span>
             <h1 className="mt-4 text-4xl sm:text-5xl font-bold text-foreground tracking-tight">
-              Sustainability & Impact
+              ESG & Impact
             </h1>
             <p className="mt-6 text-lg lg:text-xl text-muted-foreground leading-relaxed">
-              Environmental responsibility, economic impact, and contribution to energy security are fundamental to everything we do at Black Lyon Power Holdings.
+              At Blacklyon Power Holdings, ESG is embedded — not marketed. Responsible infrastructure is the only infrastructure that endures.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Sustainability Philosophy */}
+      {/* ESG Philosophy */}
       <section className="py-20 lg:py-28 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold text-foreground tracking-tight">
-                Sustainability at Our Core
+                Embedded, Not Marketed
               </h2>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                At Black Lyon Power Holdings, sustainability is not an afterthought—it's embedded in our business model. We develop renewable energy projects that deliver positive environmental, social, and economic outcomes.
+                Our projects are developed to support decarbonisation while strengthening energy reliability, enable inclusive local economic participation, meet international environmental, social, and governance standards, and build lasting trust with host communities and stakeholders.
               </p>
-              <p className="mt-4 text-muted-foreground leading-relaxed">
-                Our approach recognizes that long-term success depends on creating value for all stakeholders: communities, the environment, off-takers, and investors. This holistic perspective guides every decision we make.
+              <p className="mt-4 text-muted-foreground leading-relaxed italic">
+                Responsible infrastructure is the only infrastructure that endures.
               </p>
             </div>
             <div className="relative">
@@ -115,8 +115,8 @@ export default function Sustainability() {
                     <span className="text-sm font-medium text-foreground">Clean Energy</span>
                   </div>
                   <div className="bg-background/80 backdrop-blur-sm rounded-md p-6 text-center">
-                    <Recycle className="h-8 w-8 text-primary mx-auto mb-3" />
-                    <span className="text-sm font-medium text-foreground">Circularity</span>
+                    <Shield className="h-8 w-8 text-primary mx-auto mb-3" />
+                    <span className="text-sm font-medium text-foreground">Governance</span>
                   </div>
                 </div>
               </div>
@@ -125,20 +125,20 @@ export default function Sustainability() {
         </div>
       </section>
 
-      {/* Impact Areas Section */}
+      {/* ESG Pillars Section */}
       <section className="py-20 lg:py-28 bg-card">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground tracking-tight">
-              Our Impact Areas
+              Our ESG Pillars
             </h2>
             <p className="mt-6 text-lg text-muted-foreground">
-              We focus on four key areas where our projects create meaningful, lasting impact.
+              Four pillars guide our approach to responsible infrastructure development.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {impactAreas.map((area, index) => {
+            {esgPillars.map((area, index) => {
               const Icon = area.icon;
               return (
                 <Card key={index} className="p-8">
@@ -203,30 +203,6 @@ export default function Sustainability() {
         </div>
       </section>
 
-      {/* National Context Section */}
-      <section className="py-20 lg:py-28 bg-card">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl lg:text-4xl font-bold text-foreground tracking-tight">
-                Supporting South Africa's Energy Transition
-              </h2>
-            </div>
-            <div className="prose prose-lg max-w-none text-muted-foreground">
-              <p className="leading-relaxed">
-                South Africa faces significant energy challenges, including supply constraints, aging infrastructure, and the need to reduce carbon emissions. Black Lyon Power Holdings is positioned to contribute meaningfully to addressing these challenges through the development of utility-scale renewable energy projects.
-              </p>
-              <p className="mt-4 leading-relaxed">
-                Our projects align with national policy objectives, including the Integrated Resource Plan (IRP), which calls for significant increases in renewable energy capacity. By developing high-quality solar and wind projects, we support the country's transition to a more sustainable, diversified energy mix.
-              </p>
-              <p className="mt-4 leading-relaxed">
-                We are committed to playing our part in building a cleaner, more resilient energy future for South Africa, creating lasting value for communities, industry, and the nation as a whole.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="py-20 lg:py-28 bg-primary/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -235,7 +211,7 @@ export default function Sustainability() {
               Partner With Us
             </h2>
             <p className="mt-6 text-lg text-muted-foreground">
-              Join us in building a sustainable energy future for South Africa.
+              Join us in building responsible, enduring energy infrastructure for Southern Africa.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/partnerships">
@@ -246,7 +222,7 @@ export default function Sustainability() {
               </Link>
               <Link href="/contact">
                 <Button variant="outline" data-testid="button-sustainability-contact">
-                  Contact Us
+                  Start a Conversation
                 </Button>
               </Link>
             </div>

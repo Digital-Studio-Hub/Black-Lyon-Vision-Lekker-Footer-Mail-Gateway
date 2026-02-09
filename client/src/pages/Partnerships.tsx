@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { ArrowRight, Building2, Factory, Briefcase, Users, Handshake, CheckCircle2 } from "lucide-react";
+import { ArrowRight, Building2, Factory, Briefcase, Users, Handshake, CheckCircle2, Landmark } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Layout } from "@/components/layout/Layout";
@@ -7,22 +7,48 @@ import { SEO } from "@/components/SEO";
 
 const partnerTypes = [
   {
-    icon: Building2,
-    title: "Municipalities",
-    description: "We partner with municipalities to develop renewable energy projects that support local energy security, reduce costs, and advance sustainability goals.",
+    icon: Briefcase,
+    title: "Institutional & Development Finance Partners",
+    description: "We welcome discussions with institutional investors and development finance institutions seeking exposure to bankable, well-structured renewable energy assets in Southern Africa.",
     benefits: [
-      "Long-term energy cost savings",
-      "Enhanced energy security and resilience",
-      "Support for climate commitments",
-      "Local economic development",
-      "Revenue generation opportunities",
+      "Projects structured for institutional investment",
+      "Strong governance and transparent reporting",
+      "Long-term value creation focus",
+      "Measurable ESG outcomes",
+      "Patient capital alignment",
     ],
-    cta: "Discuss Municipal Partnership",
+    cta: "Investment Opportunities",
   },
   {
     icon: Factory,
-    title: "Industrial Off-Takers",
-    description: "We work with industrial enterprises seeking reliable, cost-effective clean energy through power purchase agreements and dedicated renewable energy supply.",
+    title: "EPC & Technology Providers",
+    description: "We collaborate with proven EPC contractors and technology providers who share our commitment to quality execution and long-term asset performance.",
+    benefits: [
+      "Quality-focused project partnerships",
+      "Growing pipeline of utility-scale projects",
+      "Long-term collaboration opportunities",
+      "Shared commitment to excellence",
+      "Southern African regional scope",
+    ],
+    cta: "Explore Collaboration",
+  },
+  {
+    icon: Landmark,
+    title: "Public-Sector Entities & Utilities",
+    description: "We partner with municipalities, government entities, and utilities to develop renewable energy infrastructure that supports energy security and public-sector procurement objectives.",
+    benefits: [
+      "Level 1 B-BBEE service provider",
+      "Enhanced energy security and resilience",
+      "Support for climate commitments",
+      "Local economic development",
+      "Inclusive participation frameworks",
+    ],
+    cta: "Discuss Public-Sector Partnership",
+  },
+  {
+    icon: Building2,
+    title: "Large Off-Takers",
+    description: "We work with large industrial, commercial, and institutional off-takers seeking reliable, cost-effective clean energy through power purchase agreements.",
     benefits: [
       "Competitive, stable energy pricing",
       "Reduced carbon footprint",
@@ -30,33 +56,7 @@ const partnerTypes = [
       "Flexible PPA structures",
       "Long-term energy security",
     ],
-    cta: "Explore Industrial Solutions",
-  },
-  {
-    icon: Briefcase,
-    title: "Strategic Investors",
-    description: "We welcome discussions with infrastructure investors and financial partners seeking exposure to South Africa's renewable energy sector.",
-    benefits: [
-      "Quality project pipeline",
-      "Experienced development team",
-      "Strong stakeholder relationships",
-      "Long-term value creation focus",
-      "Transparent reporting and governance",
-    ],
-    cta: "Investment Opportunities",
-  },
-  {
-    icon: Users,
-    title: "Strategic Partners",
-    description: "We collaborate with technical advisors, engineering firms, and other service providers who share our commitment to excellence.",
-    benefits: [
-      "Long-term collaboration opportunities",
-      "Quality-focused partnership",
-      "Shared commitment to sustainability",
-      "Professional development context",
-      "Growing project pipeline",
-    ],
-    cta: "Explore Partnership",
+    cta: "Explore Energy Solutions",
   },
 ];
 
@@ -87,22 +87,22 @@ export default function Partnerships() {
   return (
     <Layout>
       <SEO
-        title="Partnership Opportunities"
-        description="Explore partnership opportunities with Black Lyon Power Holdings for municipalities, industrial off-takers, investors, and strategic collaborators."
-        keywords="renewable energy partnerships, municipal energy partnerships, industrial off-takers, energy investment South Africa"
+        title="Partner With Us"
+        description="Blacklyon Power Holdings engages with institutional and development finance partners, EPC and technology providers, public-sector entities, utilities, and large off-takers."
+        keywords="renewable energy partnerships, institutional investment, EPC partnerships, public-sector energy, energy investment South Africa, development finance"
       />
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-card to-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28">
           <div className="max-w-3xl">
             <span className="text-sm font-medium text-primary uppercase tracking-wider">
-              Work With Us
+              Partner With Us
             </span>
             <h1 className="mt-4 text-4xl sm:text-5xl font-bold text-foreground tracking-tight">
-              Partnership Opportunities
+              Partner With Us
             </h1>
             <p className="mt-6 text-lg lg:text-xl text-muted-foreground leading-relaxed">
-              Black Lyon Power Holdings seeks partnerships with municipalities, industrial off-takers, investors, and strategic collaborators who share our vision for sustainable energy development.
+              If your capital is patient and your perspective long-term, we welcome the conversation.
             </p>
           </div>
         </div>
@@ -114,19 +114,19 @@ export default function Partnerships() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div>
               <h2 className="text-3xl lg:text-4xl font-bold text-foreground tracking-tight">
-                How We Partner
+                Who We Engage With
               </h2>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                At Black Lyon Power Holdings, we approach every partnership with a long-term perspective. We believe that successful renewable energy development requires alignment of interests, transparent communication, and shared commitment to excellence.
+                Blacklyon Power Holdings engages with institutional and development finance partners, EPC and technology providers, public-sector entities, utilities, and large off-takers who share our long-term perspective.
               </p>
               <p className="mt-4 text-muted-foreground leading-relaxed">
-                Whether you're a municipality seeking to enhance energy security, an industrial enterprise looking for reliable clean energy, or an investor exploring opportunities in renewable infrastructure, we welcome the opportunity to explore how we might work together.
+                We approach every partnership with discipline, transparency, and a commitment to creating durable value for all stakeholders.
               </p>
               <div className="mt-8 flex items-center gap-4">
                 <Handshake className="h-12 w-12 text-primary" />
                 <div>
-                  <div className="text-2xl font-bold text-foreground">Long-Term Focus</div>
-                  <div className="text-muted-foreground">Building relationships that last</div>
+                  <div className="text-2xl font-bold text-foreground">Long-Term Alignment</div>
+                  <div className="text-muted-foreground">Patient capital, durable assets</div>
                 </div>
               </div>
             </div>
@@ -138,7 +138,7 @@ export default function Partnerships() {
                     <div className="text-muted-foreground">Values That Guide Us</div>
                   </div>
                   <div className="grid grid-cols-2 gap-4">
-                    {["Transparency", "Integrity", "Excellence", "Sustainability"].map((value, index) => (
+                    {["Discipline", "Integrity", "Execution", "Endurance"].map((value, index) => (
                       <div key={index} className="bg-background/80 backdrop-blur-sm rounded-md p-4 text-center">
                         <CheckCircle2 className="h-5 w-5 text-primary mx-auto mb-2" />
                         <span className="text-sm font-medium text-foreground">{value}</span>
@@ -160,7 +160,7 @@ export default function Partnerships() {
               Who We Work With
             </h2>
             <p className="mt-6 text-lg text-muted-foreground">
-              We partner with diverse stakeholders who share our commitment to sustainable energy development.
+              We engage with partners who share our commitment to disciplined execution and long-term value creation.
             </p>
           </div>
 
@@ -246,14 +246,14 @@ export default function Partnerships() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground tracking-tight">
-              Ready to Discuss a Partnership?
+              Trusted. Responsible. Enduring.
             </h2>
             <p className="mt-6 text-lg text-muted-foreground">
-              We welcome the opportunity to explore how Black Lyon Power Holdings can support your renewable energy objectives.
+              Built to the standard where institutional investors are reassured, development finance institutions are comfortable, public-sector stakeholders have confidence, and long-term partners remain aligned.
             </p>
             <Link href="/contact" className="inline-block mt-8">
               <Button size="lg" className="gap-2" data-testid="button-partnerships-contact">
-                Discuss a Partnership
+                Start a Conversation
                 <ArrowRight className="h-4 w-4" />
               </Button>
             </Link>

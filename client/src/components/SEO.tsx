@@ -8,7 +8,7 @@ interface SEOProps {
 
 export function SEO({ title, description, keywords }: SEOProps) {
   useEffect(() => {
-    document.title = `${title} | Black Lyon Power Holdings`;
+    document.title = `${title} | Blacklyon Power Holdings`;
     
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
@@ -17,7 +17,7 @@ export function SEO({ title, description, keywords }: SEOProps) {
     
     const ogTitle = document.querySelector('meta[property="og:title"]');
     if (ogTitle) {
-      ogTitle.setAttribute("content", `${title} | Black Lyon Power Holdings`);
+      ogTitle.setAttribute("content", `${title} | Blacklyon Power Holdings`);
     }
     
     const ogDescription = document.querySelector('meta[property="og:description"]');

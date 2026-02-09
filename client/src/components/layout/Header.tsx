@@ -7,10 +7,10 @@ import mainLogo from "@assets/Main_Logo_1770065674512.png";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
-  { href: "/approach", label: "Our Approach" },
+  { href: "/approach", label: "Development Focus" },
   { href: "/projects", label: "Projects" },
-  { href: "/sustainability", label: "Sustainability" },
-  { href: "/partnerships", label: "Partnerships" },
+  { href: "/sustainability", label: "ESG & Impact" },
+  { href: "/partnerships", label: "Partner With Us" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -25,7 +25,7 @@ export function Header() {
           <Link href="/" className="flex items-center" data-testid="link-home-logo">
             <img 
               src={mainLogo} 
-              alt="Black Lyon Power Holdings - Building the Energy Infrastructure Africa Needs" 
+              alt="Blacklyon Power Holdings - Building the Energy Infrastructure Africa Needs" 
               className="h-12 lg:h-16 w-auto"
             />
           </Link>
